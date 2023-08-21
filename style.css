@@ -1,0 +1,215 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    height: 21rem;
+    width: 21rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hr {
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: black;
+    color: chartreuse;
+}
+
+#min {
+    height: 13rem;
+    width: 13rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    overflow: hidden;
+}
+
+#min h3 {
+    position: absolute;
+    font-size: 1rem;
+}
+
+#min h3:nth-child(1) {
+    left: 83%;
+    top: 38%;
+}
+
+#min h3:nth-child(2) {
+    left: 78.3%;
+    top: 56%;
+}
+
+#min h3:nth-child(3) {
+    left: 65.5%;
+    top: 69.5%;
+}
+
+#min h3:nth-child(4) {
+    left: 46.5%;
+    top: 75%;
+}
+
+#min h3:nth-child(5) {
+    left: 28%;
+    top: 69.5%;
+}
+
+#min h3:nth-child(6) {
+    left: 15.2%;
+    top: 56%;
+}
+
+#min h3:nth-child(7) {
+    left: 10%;
+    top: 38%;
+}
+
+#min h3:nth-child(8) {
+    left: 15.2%;
+    top: 19%;
+}
+
+#min h3:nth-child(9) {
+    left: 28%;
+    top: 5%;
+}
+
+#min h3:nth-child(10) {
+    left: 46.5%;
+    top: 0.4%;
+}
+
+#min h3:nth-child(11) {
+    left: 65.5%;
+    top: 5.5%;
+}
+
+#min h3:nth-child(12) {
+    left: 77.6%;
+    top: 19%;
+}
+
+#min_val {
+    height: 1.8rem;
+    width: 1.8rem;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 6;
+    left: 66.5%;
+    top: 45.5%;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: chartreuse;
+}
+
+#sec {
+    height: 20.3rem;
+    width: 20.3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    overflow: hidden;
+}
+
+#sec h3 {
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+#sec h3:nth-child(1) {
+    left: 85.6%;
+    top: 41%;
+}
+
+#sec h3:nth-child(2) {
+    left: 80.6%;
+    top: 60%;
+}
+
+#sec h3:nth-child(3) {
+    left: 67%;
+    top: 74%;
+}
+
+#sec h3:nth-child(4) {
+    left: 47.4%;
+    top: 79.5%;
+}
+
+#sec h3:nth-child(5) {
+    left: 28.7%;
+    top: 74.2%;
+}
+
+#sec h3:nth-child(6) {
+    left: 14.7%;
+    top: 60%;
+}
+
+#sec h3:nth-child(7) {
+    left: 9.7%;
+    top: 41%;
+}
+
+#sec h3:nth-child(8) {
+    left: 14.7%;
+    top: 22%;
+}
+
+#sec h3:nth-child(9) {
+    left: 28%;
+    top: 7.5%;
+}
+
+#sec h3:nth-child(10) {
+    left: 47.4%;
+    top: 2.5%;
+}
+
+#sec h3:nth-child(11) {
+    left: 66.5%;
+    top: 8%;
+}
+
+#sec h3:nth-child(12) {
+    left: 79.7%;
+    top: 21.5%;
+}
+
+#sec_val {
+    height: 1.4rem;
+    width: 1.4rem;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 6;
+    left: 83.3%;
+    top: 46%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: chartreuse;
+}
